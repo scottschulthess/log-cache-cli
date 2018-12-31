@@ -11,7 +11,7 @@ pushd $WORKSPACE
 popd
 
 pushd "$WORKSPACE/cmd/cf-lc-plugin"
-  go build -ldflags "-X main.version=$version" -o $WORKSPACE/build_artifacts/log-cache-cf-plugin-dev
+  go build -ldflags "-X main.version=$version" -mod=vendor -o $WORKSPACE/build_artifacts/log-cache-cf-plugin-dev
 popd
 
 pushd "$WORKSPACE/cmd/lc"

@@ -197,12 +197,12 @@ func Tail(
 	}
 
 	if o.follow {
+		fmt.Println(o.nameFilter)
 		logcache.Walk(
 			ctx,
 			sourceID,
 			logcache.Visitor(func(envelopes []*loggregator_v2.Envelope) bool {
 				for _, e := range envelopes {
-					walkStartTime = e.Timestamp + 1
 					if formatted, ok := filterAndFormat(e); ok {
 						lw.Write(formatted)
 					}
@@ -213,6 +213,8 @@ func Tail(
 			logcache.WithWalkStartTime(time.Unix(0, walkStartTime)),
 			logcache.WithWalkEnvelopeTypes(o.envelopeType),
 			logcache.WithWalkBackoff(logcache.NewAlwaysRetryBackoff(250*time.Millisecond)),
+			// logcache.WithWalkLimit(1000),
+			logcache.WithWalkNameFilter(o.nameFilter),
 		)
 	}
 }
@@ -261,6 +263,7 @@ type tailOptions struct {
 
 	gaugeName   string
 	counterName string
+	nameFilter  string
 
 	noHeaders       bool
 	newLineReplacer rune
@@ -278,6 +281,7 @@ type tailOptionFlags struct {
 	CounterName   string `long:"counter-name"`
 	EnvelopeClass string `long:"type"`
 	NewLine       string `long:"new-line" optional:"true" optional-value:"\\u2028"`
+	NameFilter    string `long:"name-filter"`
 }
 
 func newTailOptions(cli plugin.CliConnection, args []string, log Logger) (tailOptions, error) {
@@ -341,6 +345,7 @@ func newTailOptions(cli plugin.CliConnection, args []string, log Logger) (tailOp
 		tokenRefreshInterval: 5 * time.Minute,
 		gaugeName:            opts.GaugeName,
 		counterName:          opts.CounterName,
+		nameFilter:           opts.NameFilter,
 		envelopeClass:        toEnvelopeClass(opts.EnvelopeClass),
 	}
 

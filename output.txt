@@ -1,0 +1,3171 @@
+{
+  "envelopes": {
+    "batch": [
+      {
+        "timestamp": "1545942906597654986",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "a8eb4846-9668-47b9-b915-6b78b6030342",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.bosh.deployment.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942906857342230",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "1daf1f5f-d2ba-423f-8475-59a5ca3e2605",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.bosh.director.probe.count": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942909319822877",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "9bc678ef-a1c4-4501-b1c6-e90188981cfe",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.OpsMan.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942909973783892",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "9bc678ef-a1c4-4501-b1c6-e90188981cfe",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.OpsMan.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942910508123990",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "9bc678ef-a1c4-4501-b1c6-e90188981cfe",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.OpsMan.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942910824511407",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "9bc678ef-a1c4-4501-b1c6-e90188981cfe",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.OpsMan.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942913000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "f680057f-a13a-4e90-b024-d97ad0f7e45f",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "events.published": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942914053650843",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "2b846b91-71a8-416f-a87a-ff443aa1ca05",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942914065676124",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "2b846b91-71a8-416f-a87a-ff443aa1ca05",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.responseTime": {
+              "unit": "ms",
+              "value": 16
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942914191739946",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "a8eb4846-9668-47b9-b915-6b78b6030342",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "bosh.deployment": {
+              "unit": "Metric",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942914490957268",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "2b846b91-71a8-416f-a87a-ff443aa1ca05",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942914546406578",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "a8eb4846-9668-47b9-b915-6b78b6030342",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.bosh.deployment.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "metrics.published": {
+              "unit": "count",
+              "value": 74
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "4061ab36-e943-4131-8fe3-806df786d1e2",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "4061ab36-e943-4131-8fe3-806df786d1e2",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "metrics.published": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.dropped": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.dropped": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.dropped": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.dropped": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.disconnects": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "9fb3dd43-8c8b-424c-811d-bdadf73b0705",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.cliCommand.probe.count": {
+              "unit": "Metric",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested": {
+              "unit": "count",
+              "value": 198
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested.boshSystemMetrics": {
+              "unit": "count",
+              "value": 82
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.disconnects": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.valueMetricQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested": {
+              "unit": "count",
+              "value": 218
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.counterEventQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested.boshSystemMetrics": {
+              "unit": "count",
+              "value": 83
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.valueMetricQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "9fb3dd43-8c8b-424c-811d-bdadf73b0705",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.cliCommand.probe.count": {
+              "unit": "Metric",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.counterEventQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.disconnects": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.disconnects": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested": {
+              "unit": "count",
+              "value": 208
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested": {
+              "unit": "count",
+              "value": 199
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested.boshSystemMetrics": {
+              "unit": "count",
+              "value": 88
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested.boshSystemMetrics": {
+              "unit": "count",
+              "value": 81
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.valueMetricQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.valueMetricQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.counterEventQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.counterEventQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.AppsDomainSynced": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "ChunkCalculationValue": "6144",
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.AvailableFreeChunksDisk": {
+              "unit": "unit",
+              "value": 49
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "ChunkCalculationValue": "6144",
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.AvailableFreeChunksDisk": {
+              "unit": "unit",
+              "value": 48
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "ChunkCalculationValue": "4096",
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.AvailableFreeChunks": {
+              "unit": "unit",
+              "value": 4
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "ChunkCalculationValue": "4096",
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.AvailableFreeChunks": {
+              "unit": "unit",
+              "value": 9
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.LRPsAdded.1H": {
+              "unit": "count",
+              "value": -0.1666666666666714
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableContainerCapacity.5M": {
+              "unit": "unit",
+              "value": 0.9539491298527444
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableContainerCapacity.5M": {
+              "unit": "unit",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableDiskCapacity.5M": {
+              "unit": "unit",
+              "value": 0.9471051241910939
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableDiskCapacity.5M": {
+              "unit": "unit",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableMemoryCapacity.5M": {
+              "unit": "unit",
+              "value": 0.5518951034624053
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableMemoryCapacity.5M": {
+              "unit": "unit",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableContainerCapacity.5M": {
+              "unit": "unit",
+              "value": 712.6
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableContainerCapacity.5M": {
+              "unit": "unit",
+              "value": 747
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableDiskCapacity.5M": {
+              "unit": "unit",
+              "value": 303103
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableDiskCapacity.5M": {
+              "unit": "unit",
+              "value": 311103
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableMemoryCapacity.5M": {
+              "unit": "unit",
+              "value": 21550.4
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableMemoryCapacity.5M": {
+              "unit": "unit",
+              "value": 48120
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Doppler.MessagesAverage.1M": {
+              "unit": "unit",
+              "value": 7548
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Firehose.LossRate.1H": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Firehose.LossRate.1M": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "SyslogDrain.RLP.LossRate.1M": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "SyslogDrain.Adapter.LossRate.1M": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "d9ce77b4-77f3-4d00-a88d-7c331e730095",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "RouteRegistration.MessagesDelta": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "SyslogDrain.Adapter.BindingsAverage.5M": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942960000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "uaa.throughput.rate": {
+              "unit": "count",
+              "value": 13
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942965126249268",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "2b846b91-71a8-416f-a87a-ff443aa1ca05",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942965137501432",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "2b846b91-71a8-416f-a87a-ff443aa1ca05",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.responseTime": {
+              "unit": "ms",
+              "value": 14
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942965546489355",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "2b846b91-71a8-416f-a87a-ff443aa1ca05",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942965782063596",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "32adbc18-0fc2-43df-884a-897317330702",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "healthwatch.ui.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942966135667926",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "32adbc18-0fc2-43df-884a-897317330702",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.UIavailability.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942966138147544",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "5a1871e1-c5ec-4ff3-9239-b46ddcd8d4e8",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.bosh.director.probe.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942966150088442",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "5a1871e1-c5ec-4ff3-9239-b46ddcd8d4e8",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.probe.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942966153513953",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "a8eb4846-9668-47b9-b915-6b78b6030342",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "bosh.deployment": {
+              "unit": "Metric",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942966164312332",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "5a1871e1-c5ec-4ff3-9239-b46ddcd8d4e8",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.cliCommand.probe.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942966176398726",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "5a1871e1-c5ec-4ff3-9239-b46ddcd8d4e8",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.OpsMan.probe.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942966597873984",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "a8eb4846-9668-47b9-b915-6b78b6030342",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.bosh.deployment.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942966857588370",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "1daf1f5f-d2ba-423f-8475-59a5ca3e2605",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.bosh.director.probe.count": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942969314141241",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "9bc678ef-a1c4-4501-b1c6-e90188981cfe",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.OpsMan.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942969974177424",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "9bc678ef-a1c4-4501-b1c6-e90188981cfe",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.OpsMan.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942970506597108",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "9bc678ef-a1c4-4501-b1c6-e90188981cfe",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.OpsMan.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942970825092198",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "9bc678ef-a1c4-4501-b1c6-e90188981cfe",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.OpsMan.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942973000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "f680057f-a13a-4e90-b024-d97ad0f7e45f",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "events.published": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942974059073622",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "2b846b91-71a8-416f-a87a-ff443aa1ca05",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942974070666705",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "2b846b91-71a8-416f-a87a-ff443aa1ca05",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.responseTime": {
+              "unit": "ms",
+              "value": 20
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942974192517565",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "a8eb4846-9668-47b9-b915-6b78b6030342",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "bosh.deployment": {
+              "unit": "Metric",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942974491273849",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "2b846b91-71a8-416f-a87a-ff443aa1ca05",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545942974546633659",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "a8eb4846-9668-47b9-b915-6b78b6030342",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.bosh.deployment.probe.count": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "metrics.published": {
+              "unit": "count",
+              "value": 74
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "4061ab36-e943-4131-8fe3-806df786d1e2",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "4061ab36-e943-4131-8fe3-806df786d1e2",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "metrics.published": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "9fb3dd43-8c8b-424c-811d-bdadf73b0705",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.cliCommand.probe.count": {
+              "unit": "Metric",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.dropped": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.dropped": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "9fb3dd43-8c8b-424c-811d-bdadf73b0705",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.cliCommand.probe.count": {
+              "unit": "Metric",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.dropped": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.dropped": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.disconnects": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.disconnects": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.disconnects": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested": {
+              "unit": "count",
+              "value": 232
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested": {
+              "unit": "count",
+              "value": 214
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested.boshSystemMetrics": {
+              "unit": "count",
+              "value": 95
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested": {
+              "unit": "count",
+              "value": 231
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested.boshSystemMetrics": {
+              "unit": "count",
+              "value": 79
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.valueMetricQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.counterEventQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.disconnects": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested": {
+              "unit": "count",
+              "value": 200
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested.boshSystemMetrics": {
+              "unit": "count",
+              "value": 96
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "ingestor.ingested.boshSystemMetrics": {
+              "unit": "count",
+              "value": 64
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.valueMetricQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.valueMetricQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.valueMetricQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.counterEventQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.counterEventQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-healthwatch-87b98929133224db9501",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "ef39bf1d-4ff7-41bc-87ef-89ceff847b24",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "redis.counterEventQueue.size": {
+              "unit": "count",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.AppsDomainSynced": {
+              "unit": "count",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "ChunkCalculationValue": "6144",
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.AvailableFreeChunksDisk": {
+              "unit": "unit",
+              "value": 49
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "ChunkCalculationValue": "6144",
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.AvailableFreeChunksDisk": {
+              "unit": "unit",
+              "value": 48
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "ChunkCalculationValue": "4096",
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.AvailableFreeChunks": {
+              "unit": "unit",
+              "value": 4
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "ChunkCalculationValue": "4096",
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.AvailableFreeChunks": {
+              "unit": "unit",
+              "value": 9
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.LRPsAdded.1H": {
+              "unit": "count",
+              "value": -0.1666666666666714
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableContainerCapacity.5M": {
+              "unit": "unit",
+              "value": 0.9539491298527444
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableContainerCapacity.5M": {
+              "unit": "unit",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableDiskCapacity.5M": {
+              "unit": "unit",
+              "value": 0.9471051241910939
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableDiskCapacity.5M": {
+              "unit": "unit",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableMemoryCapacity.5M": {
+              "unit": "unit",
+              "value": 0.5518951034624053
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalPercentageAvailableMemoryCapacity.5M": {
+              "unit": "unit",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableContainerCapacity.5M": {
+              "unit": "unit",
+              "value": 712.6
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableContainerCapacity.5M": {
+              "unit": "unit",
+              "value": 747
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableDiskCapacity.5M": {
+              "unit": "unit",
+              "value": 303103
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableDiskCapacity.5M": {
+              "unit": "unit",
+              "value": 311103
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableMemoryCapacity.5M": {
+              "unit": "unit",
+              "value": 21550.4
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "p-isolation-segment-e828e7d1ebc3c059662c",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Diego.TotalAvailableMemoryCapacity.5M": {
+              "unit": "unit",
+              "value": 48120
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Doppler.MessagesAverage.1M": {
+              "unit": "unit",
+              "value": 7709
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Firehose.LossRate.1H": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "Firehose.LossRate.1M": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "SyslogDrain.RLP.LossRate.1M": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "SyslogDrain.Adapter.LossRate.1M": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "d9ce77b4-77f3-4d00-a88d-7c331e730095",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "RouteRegistration.MessagesDelta": {
+              "unit": "unit",
+              "value": 1
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "SyslogDrain.Adapter.BindingsAverage.5M": {
+              "unit": "unit",
+              "value": 0
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943020000000000",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "index": "fae64068-fc21-4a9b-bbe1-f8cc1e54d337",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "uaa.throughput.rate": {
+              "unit": "count",
+              "value": 16
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "1545943025124283258",
+        "source_id": "healthwatch-forwarder",
+        "instance_id": "a750062e-1ece-467b-a5df-3f62d80cedd5",
+        "deprecated_tags": {},
+        "tags": {
+          "deployment": "cf-ba49b8c48b191e73f9a9",
+          "foundation": "sys.mountshasta.cf-app.com",
+          "frequency": "60s",
+          "index": "2b846b91-71a8-416f-a87a-ff443aa1ca05",
+          "ip": "",
+          "job": "healthwatch-forwarder",
+          "origin": "healthwatch"
+        },
+        "gauge": {
+          "metrics": {
+            "health.check.CanaryApp.available": {
+              "unit": "Metric",
+              "value": 1
+            }
+          }
+        }
+      }
+    ]
+  }
+}
