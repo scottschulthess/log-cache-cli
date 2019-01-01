@@ -269,14 +269,14 @@ type tailOptions struct {
 type tailOptionFlags struct {
 	StartTime     int64  `long:"start-time"`
 	EndTime       int64  `long:"end-time"`
-	EnvelopeType  string `long:"envelope-type"`
+	EnvelopeType  string `long:"envelope-type" short:"t"`
 	Lines         uint   `long:"lines" short:"n" default:"10"`
 	Follow        bool   `long:"follow" short:"f"`
 	OutputFormat  string `long:"output-format" short:"o"`
 	JSONOutput    bool   `long:"json"`
 	GaugeName     string `long:"gauge-name"`
 	CounterName   string `long:"counter-name"`
-	EnvelopeClass string `long:"type"`
+	EnvelopeClass string `long:"envelope-class" short:"c"`
 	NewLine       string `long:"new-line" optional:"true" optional-value:"\\u2028"`
 }
 
@@ -311,7 +311,7 @@ func newTailOptions(cli plugin.CliConnection, args []string, log Logger) (tailOp
 	}
 
 	if opts.EnvelopeType != "" && opts.EnvelopeClass != "" {
-		return tailOptions{}, errors.New("--envelope-type cannot be used with --type")
+		return tailOptions{}, errors.New("--envelope-type cannot be used with --envelope-class")
 	}
 
 	if opts.EnvelopeClass != "" {
