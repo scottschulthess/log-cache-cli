@@ -74,6 +74,9 @@ func Tail(
 	}
 
 	sourceID := o.guid
+
+	checkFeatureVersioning(c)
+
 	formatter := newFormatter(o.providedName, o.follow, formatterKindFromOptions(o), log, o.outputTemplate, o.newLineReplacer)
 	lw := lineWriter{w: w}
 
@@ -488,6 +491,11 @@ func parseNewLineArgument(s string) (rune, error) {
 	}
 
 	return 0, errors.New("--new-line argument must be single unicode character or in the format \\uXXXXX")
+}
+
+func checkFeatureVersioning(c HTTPClient) {
+	version := 
+	log.Fatalf("Use of --name-filter requires minimum log-cache version 2.1.0")
 }
 
 type backoff struct {

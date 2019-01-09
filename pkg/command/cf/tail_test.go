@@ -1337,6 +1337,25 @@ var _ = Describe("LogCache", func() {
 			Expect(logger.fatalfMessage).To(Equal("Expected 1 argument, got 0."))
 		})
 
+		FIt("fatally logs if the arguments indicate incompatibility with server side", func() {
+			args := []string{"--name-filter", "egress", "app-name"}
+			httpClient.serverVersion = "2.0.3"
+			// httpClient.infoResponseBody = `{"version": "2.0.3"}`
+
+			Expect(func() {
+				cf.Tail(
+					context.Background(),
+					cliConn,
+					args,
+					httpClient,
+					logger,
+					writer,
+				)
+			}).To(Panic())
+
+			Expect(logger.fatalfMessage).To(Equal("Use of --name-filter requires minimum log-cache version 2.1.0"))
+		})
+
 		It("fatally logs if there is an error while getting API endpoint", func() {
 			cliConn.apiEndpointErr = errors.New("some-error")
 

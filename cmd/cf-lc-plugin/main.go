@@ -47,10 +47,14 @@ func (c *LogCacheCLI) Run(conn plugin.CliConnection, args []string) {
 		if !isTerminal {
 			opts = append(opts, cf.WithTailNoHeaders())
 		}
+
+		for a := range args {
+			// if strings.Contains(a, "-name-filter")
+		}
 		cf.Tail(ctx, cli, args, c, log, tableWriter, opts...)
 	}
 
-	commands["log-meta"] = func(ctx context.Context, cli plugin.CliConnection, args []string, c cf.HTTPClient, log cf.Logger, tableWriter io.Writer) {
+	commands["log-meta"] = func(ctx context.context, cli plugin.cliconnection, args []string, c cf.httpclient, log cf.logger, tablewriter io.writer) {
 		var opts []cf.MetaOption
 		if !isTerminal {
 			opts = append(opts, cf.WithMetaNoHeaders())
